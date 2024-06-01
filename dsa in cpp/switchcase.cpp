@@ -28,22 +28,22 @@ int main() {
 }
 
 
-// #include<iostream>
-// using namespace std;
-// int main() { 
+#include<iostream>
+using namespace std;
+int main() { 
 
-//     //using exit(0):to exit out of a switch case inside an infinte loop
-//     int num =1;
-//     while(1){
-//         cout<<"How are u?";
-//         switch(num){
-//             case 1:
-//                 cout<<"Fine";
-//                 break;
-//             default:
-//                 cout<<"U tell first?";
-//         }
-//           exit(0);
-//     }
-//         return 0;
-// }
+    //using exit(0):to exit out of a switch case inside an infinte loop
+    int num =1;
+    while(1){
+        cout<<"How are u?";
+        switch(num){
+            case 1:
+                cout<<"Fine";
+                break;
+            default:
+                cout<<"U tell first?";
+        }
+          exit(0);
+    }
+        return 0;
+}
